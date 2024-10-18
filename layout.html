@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Layout Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        header {
+            background: #0073e6; /* Blue color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background: #333;
+            margin: 20px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #555;
+        }
+
+        /* Main Layout Container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Main Content Area */
+        main {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        main h2 {
+            margin-bottom: 20px;
+            color: #0073e6;
+        }
+
+        main p {
+            line-height: 1.8;
+        }
+
+        /* Sidebar Area */
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            margin-left: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        aside h3 {
+            color: #0073e6;
+            margin-bottom: 15px;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+        }
+
+        aside a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        aside a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            aside {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>KNOW YOUR RELIGION</h1>
+        <p>Welcome to the platform where you can learn and explore more about your religion.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home0.html">Home</a></li>
+            <li><a href="Islamic.html">Islamic Resources</a></li>
+            <li><a href="christianity.html">Christian Resources</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Layout Container -->
+    <div class="container">
+        <!-- Main Content Area -->
+        <main>
+            <h2>Main Content</h2>
+            <p>This is where the main content of your page will go. You can add paragraphs, images, and other elements that are relevant to your project.</p>
+            <p>Feel free to use this space to provide detailed information or showcase any specific topic.</p>
+        </main>
+
+        <!-- Sidebar Area -->
+<aside>
+    <h3>Helpful Links</h3>
+    <ul>
+        <li><a href="Islamic.html">Understanding Islam</a></li>
+        <li><a href="christianity.html">Christianity Explained</a></li>
+        
+    </ul>
+    <p>You can use this sidebar to provide additional links, resources, or any other content that supports the main content.</p>
+</aside>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Know Your Religion. All rights reserved.</p>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </nav>
+    </footer>
+</body>
+</html>
